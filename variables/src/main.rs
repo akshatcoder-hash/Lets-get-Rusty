@@ -19,4 +19,14 @@ fn main() {
 
 
     // Compound Types
+    let tup = ("Let's Get Rusty!", 100_000);
+    let (channel, sub_count) = tup;
+    let sub_count = tup.1;
+
+    let error_codes = [200, 404, 500];
+    let not_found = error_codes[1];
+
+
+    // Functions in Rust:
+    
 }
