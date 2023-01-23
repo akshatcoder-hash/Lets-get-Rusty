@@ -35,3 +35,14 @@ fn main() {
         return x+y;
     }
 
+    // Loops in Rust
+
+    fn loop_demo() {
+    let mut counter = 10;
+    loop{
+        println!("Again!");
+        //break
+    }
+}
+
+
