@@ -25,8 +25,13 @@ fn main() {
 
     let error_codes = [200, 404, 500];
     let not_found = error_codes[1];
-
-
-    // Functions in Rust:
-    
+    let sum = my_function(11, 22);
+    println!("The sum is: {}", sum);
 }
+    // Functions in Rust:
+    fn my_function(x:i32, y:i32) -> i32{
+        println!("The value of x is: {}", x);
+        println!("The value of y is: {}", y);
+        return x+y;
+    }
+
